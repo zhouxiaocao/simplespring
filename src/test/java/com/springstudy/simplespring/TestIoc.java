@@ -45,5 +45,4 @@ public class TestIoc {
         HelloWorld hello = (HelloWorld) beanFactory.getBean("helloWorld");
         Assert.assertEquals("Hello IoC Property!", hello.sayHello());
     }
-
 }
